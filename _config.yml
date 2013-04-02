@@ -4,7 +4,7 @@
 
 url: http://garbled.benhamill.com
 title: Garbled
-subtitle: garbled = Blog.new(author: 'Ben Hamill')
+subtitle: "garbled = Blog.new(author: 'Ben Hamill')"
 author: Ben Hamill
 simple_search: http://google.com/search
 description:
