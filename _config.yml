@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://benhamill.github.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://garbled.benhamill.com
+title: Garbled
+subtitle: garbled = Blog.new(author: 'Ben Hamill')
+author: Ben Hamill
 simple_search: http://google.com/search
 description:
 
@@ -58,13 +58,13 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: benhamill
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: benhamill
 twitter_tweet_button: true
 
 # Google +1
@@ -73,7 +73,7 @@ google_plus_one_size: medium
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user:
+googleplus_user: iamday@gmail.com
 googleplus_hidden: false
 
 # Pinboard
