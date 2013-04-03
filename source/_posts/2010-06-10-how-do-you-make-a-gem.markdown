@@ -11,8 +11,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '2'
 ---
 This is not intended to be a how-to. I sort of talked a bit about <em>that</em> <a href="http://garbled.benhamill.com/2010/05/my-first-ruby-gem/">before</a>. I'm writing this post because, as I breathlessly blogged before (alliteration!), I released my <a href="http://rubygems.org/gems/twitter_alert">first gem</a>. I then immediately turned around to start using it. And it was terrible. Yay for version 0.1! So I'm going to try something else.
 

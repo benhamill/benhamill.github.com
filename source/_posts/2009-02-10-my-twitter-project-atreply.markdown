@@ -11,8 +11,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '2'
 ---
 I use <a href="http://twitterfox.net/">Twitterfox</a> to read and create tweets most of the time. I follow enough people that, when I open my browser for the first time for the day, more than 20 tweets have accumulated and, really, I don't want to go back and read all 60-odd or whatever that have accumulated overnight. Twenty, I should note, is just what Twitterfox picks up when it first turns on.
 
@@ -21,7 +19,9 @@ Occasionally, I'll come in and see the last few tweets in a conversation between
 So I had an idea about it and I've started work. Twitter tracks what tweet (technically called a "Twitter status", apparently) any given tweet was a reply to. And, I figured, it would be relatively simple to, given a Twitter status ID, recursively follow the reply chain back and get the whole conversation. Turns out, I was right.
 
 A proof of concept:
-<pre lang="ruby" line="1">require 'rubygems'
+
+``` ruby
+require 'rubygems'
 require 'twitter'
 
 class Reply
@@ -54,5 +54,7 @@ class Reply
 
    self.atreply.reply_chain &lt;&lt; self
  end
-end</pre>
+end
+```
+
 This has a dependency on <a href="http://github.com/joshuamiller/twitter4r/tree/master">Joshuamiller's version of twitter4r</a>. My medium-term plan is to make a one-trick-website that will take an ID or twitter URL and give you the replies all pretty-like. Maybe make a bookmarklet for convenience's sake. I plan on using Rails, even though that's overkill because I figure it'll be a good learning experience on that front. Find it on <a href="http://github.com/BenHamill/atreply/tree/master">Github</a>.

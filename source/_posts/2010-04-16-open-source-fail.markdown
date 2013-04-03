@@ -6,8 +6,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '2'
 ---
 Currently, this blog runs on a great Rails-based blog engine called <a href="http://www.enkiblog.com/">Enki</a>. I initially installed it here because I liked the idea of hacking on the engine a bit or looking under the hood as a learning experience. And it was educational, at first, but more and more, I find that I don't really want to mess with it. I'd rather the blog Just Work.
 

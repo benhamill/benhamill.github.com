@@ -9,8 +9,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '2'
 ---
 The other day, I was listening to the <a title="Ruby Rogues" href="http://rubyrogues.com/" target="_blank">Ruby Rogues</a> podcast (which I recommend). The episode was <a title="The RubyGems Episode" href="http://rubyrogues.com/036-rr-rubygems/" target="_blank">number 36</a>, about Ruby Gems and they had <a title="Nick's Blog" href="http://quaran.to/" target="_blank">Nick Quaranto</a> on as a guest. For those of you who don't know, Nick is the originator of the whole GemCutter thing which eventually became what is now <a title="RubyGems.org" href="http://rubygems.org" target="_blank">RubyGems.org</a>. So he knows a thing or two about gems and, in particular, about the servers that host them all. When you type <code>gem install bundler</code> or whatever, RubyGems.org is where it's (generally) downloading it from.
 

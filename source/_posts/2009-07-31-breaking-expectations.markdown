@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '2'
 ---
 Whenever we interact with the world, we use cognitive shortcuts. It's handy, you know. We make assumptions about our environment so that, if we've guessed right, we can respond appropriately to our environment more quickly as it changes. It's a survival technique.
 

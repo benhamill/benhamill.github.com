@@ -8,8 +8,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '2'
 ---
 I've recently started using git to version control my personal projects. I've also recently started using GitHub for hosting remote repos of that stuff. So I'm new to it all and I might be wrong, here. But, having read a few articles here and there and talked to some other people (most notably, another git newbie @<a href="http://twitter.com/carl_youngblood">carl_youngblood</a>), aren't cherry picking and rebasing really, really horrible things to do to a repo? Even if it's just your local one? They destroy history, which is sort of the point of version control, no?
 

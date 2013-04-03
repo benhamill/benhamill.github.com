@@ -8,8 +8,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '2'
 ---
 I'm reaching a point where I want everything in my life to be version controlled. I made a desktop making fun of my friend in the GIMP the other day and realized that I wanted it version controlled. I don't think Git will handle .xcf's. Pity, though.
 

@@ -24,7 +24,11 @@ forgiving about or interpreted differently or whatever. So in order to get our
 app at work that we haven't yet ported to Ruby 1.9.2 to run, I need to have REE
 installed. This is how I got it done. This is one of those blog posts that I
 hope gets indexed so that the next time I have to do this and I ask Google
-about it, it will show me my own blog post.  <h4>Ruby-build</h4> I like <a
+about it, it will show me my own blog post.
+
+<h2>Ruby-build</h2>
+
+I like <a
   title="rbenv on GitHub" href="https://github.com/sstephenson/rbenv"
   target="_blank">rbenv</a>. A lot of people prefer <a title="RVM"
   href="http://beginrescueend.com/" target="_blank">rvm</a>. I don't want to
@@ -36,7 +40,7 @@ ruby-build works is by executing recipes, which are pretty simple. Here is the
 one I wrote to handle the install. It's just a variation on the stock REE
 install recipe from ruby-build.
 
-[gist id=1732092 file=ree-1.8.7-2011.12-stdout_patch]
+{% gist 1732092 ree-1.8.7-2011.12-stdout_patch %}
 
 I won't get deep into the details, but let's start with the last 3 lines.
 Ruby-build executes each of these directives in turn. The first of the three
@@ -45,25 +49,29 @@ first two of those arguments are what it's installing and where to get it. Any
 after that (you'll have to scroll right) are telling it what to do with it,
 once it's downloaded it. It will run the last arguments in the order given. So
 that brings us to the function I added at the
-top: <code>build_package_stdout_patch</code>.
+top: `build_package_stdout_patch`.
 
 When you pass those ending arguments into <code>install package</code>, it will
 look to execute a function by the name you gave it prepended with
-<code>build_package_</code>. So the function I wrote downloads a patch for a
+`build_package_`. So the function I wrote downloads a patch for a
 bug having to do with <a title="Ruby 1.8 - Bug #5108: ruby 1.8.7 fails to build
-  with glibc 2.14 - Ruby Issue Tracking System"
-  href="http://bugs.ruby-lang.org/issues/5108" target="_blank">creating rogue
-  references to STDOUT</a>, then issues the patch command to work it into the
+with glibc 2.14 - Ruby Issue Tracking System"
+href="http://bugs.ruby-lang.org/issues/5108" target="_blank">creating rogue references to STDOUT</a>,
+then issues the patch command to work it into the
 REE source. I don't know a lot about the patch command, so there's a good
 chance this could be done more nicely (see below). After that, it runs
 ruby-build's standard ree_installer task wich builds and installs the REE
-source.  <h4>Running It</h4> When you're using ruby-build and rbenv together,
+source.
+
+<h2>Running It</h2>
+
+When you're using ruby-build and rbenv together,
 you get a nice command called <code>rbenv install</code>. You can either pass
 it the name of a recipe that ruby-build already knows about or the path to a
 recipe on your hard drive somewhere. So, in the directory where I had saved my
 recipe, I ran:
 
-[gist id=1732092 file=run_command]
+{% gist 1732092 run_command %}
 
 Note: There's some kind of problem with tcmalloc and the newest gcc. Or
 something. I don't really understand, but since this is just for local
@@ -73,7 +81,7 @@ pass those options along in it's build process. So off it goes to the races.
 Then, I get this output:
 
 
-[gist id=1732092 file=output]
+{% gist 1732092 output %}
 
 Pay particular attention to the last half of this. After the progress bar,
 patch gets confused. That's because the patch is really for Ruby 1.8.7 MRI, not

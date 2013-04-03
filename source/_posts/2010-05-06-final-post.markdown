@@ -6,8 +6,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '2'
 ---
 This will be my final post on this blog, but that's not as dramatic as it seems. I've been setting up a Wordpress install over at <a href="http://garbled.benhamill.com/">http://garbled.benhamill.com/</a> and moving all the posts over there. I'm still messing with CSS to make it look right, but that'll just be a little while. If you like, you can go ahead and subscribe to <a href="http://garbled.benhamill.com/feed/">the feed</a> over there. After this post, all new posts will go into Wordpress.
 

@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '2'
 ---
 You frequently hear (or I do, anyway) the advice that if you're unhappy in your coding job, you should scratch your own itch, work on what you love... Work on something you'd be a user for. Because then you don't have to do a bunch of requirements gathering and get them inevitably wrong, etc. etc. The idea seems to be that if you love the business process, you'll love working on the code that enacts it. And, well, that's fine. It seems to make a lot of sense, on the surface. But then I thought about history.
 

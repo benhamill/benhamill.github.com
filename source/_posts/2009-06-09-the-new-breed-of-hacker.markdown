@@ -7,12 +7,10 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '2'
 ---
 In light of my last post, I got to thinking some more about old school hackers. Also, at my job, we've got some people who've been here a <em>long</em> time. One in particular, we'll call him Steve, is very smart, but... And, see, that's sort of the thing: I can't put my finger on it exactly. Steve is <em>blazingly</em> smart. But there's clearly a difference between he and I that isn't, I think, just accounted for by the 20 or so (I'm guessing) year difference in our ages.
 
-If I see something I dislike&amp;mdash;something that could be better&amp;mdash;I really want to see it change. I want to be involved in that change if not driving it. Steve is often watching and present. He's paying attention mostly and if you ask him a question he'll have an insightful answer. If someone proposes a change that's actually a good one and addresses a real problem, etc. etc. he'll be glad the change is coming. But he never pushes for it. He never starts a conversation (in the wider sense, I mean; he <em>will</em> say hi to you in the hall or whatever) and hardly chimes in unless addressed directly.
+If I see something I dislike&mdash;something that could be better&mdash;I really want to see it change. I want to be involved in that change if not driving it. Steve is often watching and present. He's paying attention mostly and if you ask him a question he'll have an insightful answer. If someone proposes a change that's actually a good one and addresses a real problem, etc. etc. he'll be glad the change is coming. But he never pushes for it. He never starts a conversation (in the wider sense, I mean; he <em>will</em> say hi to you in the hall or whatever) and hardly chimes in unless addressed directly.
 
 And I think Steve fits a sort of archetype. He's very interested in low-level details (well, actually in almost any kind of technical detail). He seems to be pretty much interested in being left alone and tinkering in his shop to see how things work (to use a light metaphor, here). If something is bad or less than optimal for other programmers around him (and including him), he'll either ignore it or work around it on his own. His solution wont be general enough to apply to everyone, though and he wouldn't publicize it. He's very internally focused. And I associate this stereotype with older programmers or, more accurately, with old school programmers (how long have you been coding, not how long have you been alive).
 

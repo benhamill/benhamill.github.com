@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '2'
 ---
 I recently started using vim on my Linux machines for development (actually gvim and I just haven't gotten around to installing it on my Windows partition). I'd tried to learn it some time ago with the understanding that it's awesome, but it didn't catch on. I know a lot of smart people who use it and it was always one of those things that I felt would be really valuable for me to learn, but--it was hard.
 

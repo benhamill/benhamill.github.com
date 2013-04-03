@@ -8,8 +8,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '2'
 ---
 For those of you who thought my last post (about role playing) was interesting, I have some news: I won't be posting about that stuff here. I will, however, be writing on the topic. My friend, Stewart, and I realized the he and I would have a lot of fun writing together on a blog specifically about role playing. So if you are interested in our thoughts on that topic, we've called it <a href="http://rockmost.wordpress.com/">Maximizing Rockmost</a>. We've started off with several posts (some of which are expansions of material from my post here) so you can see what sort of thing we're likely to be writing about. I'm looking forward to it.
 

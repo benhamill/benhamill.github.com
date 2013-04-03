@@ -8,8 +8,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '2'
 ---
 I'm mostly posting this to document it to myself, since I always forget, but it might be helpful to any readers, as well. You generally don't want to be logging in to your computer as a user with admin privileges and a sane OS (like Mac OS or Linux), makes it a fairly painless experience. Windows, on the other hand, can be a real bear on the point. Specifically, Windows Explorer doesn't like to do the whole "Run as..." thing. I've discovered a wonderful little run line that will solve this problem.
 

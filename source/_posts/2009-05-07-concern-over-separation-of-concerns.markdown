@@ -8,8 +8,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '2'
 ---
 I have a lot of online identities. Who doesn't these days? I've got a gmail account, which means I also have a gchat account and that account can also double as an OpenID. Because I got on the bandwagon before Google did, I have a different OpenID. I've got an AIM account (well, one active and a few that've atrophied over the years). I've got a Twitter account and an account at Hacker News and one over on the GURPS fora and an OtherInbox account and... a ton of other sites. Sometimes, it's all a lot to keep track of.
 

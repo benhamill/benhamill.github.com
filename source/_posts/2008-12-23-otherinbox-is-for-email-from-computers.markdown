@@ -8,8 +8,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '2'
 ---
 So I use this great thing called <a href="http://otherinbox.com">OtherInbox</a>. They're in closed beta just now, but if you <a href="http://twitter.com/otherinbox">follow them on Twitter</a> you're likely to see when they hand out another round of invites (which they recently tweeted would be coming early in January, if I remember right). Let me tell you a bit about OI before I go into my rant. Hopefully it will segue nicely.
 
