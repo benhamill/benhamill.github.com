@@ -1,0 +1,23 @@
+---
+layout: post
+title: Changems
+tags:
+- programming
+- projects
+- rails
+- ruby
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '2'
+---
+The other day, I was listening to the <a title="Ruby Rogues" href="http://rubyrogues.com/" target="_blank">Ruby Rogues</a> podcast (which I recommend). The episode was <a title="The RubyGems Episode" href="http://rubyrogues.com/036-rr-rubygems/" target="_blank">number 36</a>, about Ruby Gems and they had <a title="Nick's Blog" href="http://quaran.to/" target="_blank">Nick Quaranto</a> on as a guest. For those of you who don't know, Nick is the originator of the whole GemCutter thing which eventually became what is now <a title="RubyGems.org" href="http://rubygems.org" target="_blank">RubyGems.org</a>. So he knows a thing or two about gems and, in particular, about the servers that host them all. When you type <code>gem install bundler</code> or whatever, RubyGems.org is where it's (generally) downloading it from.
+
+I digress. At one point, Nick mentioned that he'd like to see more projects using RubygGems.org's API and specifically one doing something interesting with gems' change logs. That, I thought, didn't sound like a terribly complicated app. So I asked him about it on Twitter, and he pointed me to <a title="Version release notes" href="https://github.com/rubygems/rubygems.org/issues/365" target="_blank">a GitHub Issue</a> on the topic. You can read the discussion for yourself, but the short of it is that no one was working on a site yet (as best I could tell), so I decided to, and over the 3-day weekend, I banged out <a title="Changems" href="http://changems.herokuapp.com" target="_blank">Changems</a>.
+
+Right now, there's fake data in the DB just to give an idea of what I'm thinking. The actual task of getting change logs into the app is not even remotely addressed right now. I'm hoping someone else will at least partially solve that problem, since it's really hairy. How opinionated do you get? How much freedom do you allow an author before you throw out their log? Should you go so far as to parse Markdown and try to retain code samples and such? Should you only accept plain text (like my fake data) and blow off people who want to get fancy? Then there's the matter of what people want to call the file (or whether they want to put their change log in the README). Anyway, once those questions at least have rudimentary answers and the site has some real data, I'm sure the community will drive whatever change they feel is appropriate.
+
+Right now, the app is based on the idea that each bullet point in a change log for a version stands alone and is an equal peer with the others from the same version. That might be foolhardy. Maybe each version should just have one big block of data for all the changes; if parsing Markdown or allowing a lot of freedom to make subsections or whatever is important to folks, that would probably be the best bet. But I don't know yet what folks want. So this post is sort of a plea for help, or at least feedback.
+
+Anyway, it's 3 evenings of work from one rubyist, so I'm hoping to get people's thoughts on the topic and maybe some pull requests. If you'd like to talk about it, hit me up on Twitter, or open an Issue on the <a title="GitHub - benhamill/changems" href="http://github.com/benhamill/changems" target="_blank">GitHub repo</a> or, you know, leave a comment here. Also, I threw together the current design, but I am not a designer, so I'd <em>love</em> someone with some actual design chops to send me a pull request. So lemme know: Seem useful? Off to the wrong start? Totally boring? Totally <em>awesome</em>?
