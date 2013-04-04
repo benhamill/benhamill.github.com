@@ -47,7 +47,7 @@ html {
       }
     }
 
-    a, a:hover, a:visited {
+    aside.sidebar:hover a, aside.sidebar a, a, a:hover, a:visited {
       color: #268bd2;
     }
 
@@ -115,6 +115,7 @@ html {
 
   aside.sidebar {
     border: none;
+    color: inherit;
 
     li, section h1 {
       border: none;
