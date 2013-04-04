@@ -1,5 +1,166 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
-html .gist .gist-file .highlight {
-  width: 100%;
+html {
+  background: none;
+
+  body{
+    max-width: 100%;
+    color: #657b83;
+    background-color: #fdf6e3;
+
+    p code, li code {
+      color: #586e75;
+      background-color: #eee8d5;
+      border: none;
+
+      -webkit-border-radius: 0;
+         -moz-border-radius: 0;
+          -ms-border-radius: 0;
+           -o-border-radius: 0;
+              border-radius: 0;
+    }
+
+    >header {
+      background: none;
+
+      h1 {
+        a, a:hover, a:visited {
+          color: inherit;
+        }
+      }
+    }
+
+    >div, >div>div {
+      background: none;
+    }
+
+    #content>div>article {
+      padding-left: 0;
+      background: none;
+
+      h2 {
+        background: none;
+      }
+    }
+
+    a, a:hover, a:visited {
+      color: #268bd2;
+    }
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  #main, nav>div, header>hgroup, footer>p {
+    max-width: $max-width;
+    margin: 0 auto;
+    position: relative;
+    border: none;
+  }
+
+  nav {
+    border: none;
+    background: none;
+    padding-bottom: 10px;
+
+    -webkit-box-shadow: 0px 6px 6px 0px #ccc;
+            box-shadow: 0px 6px 6px 0px #ccc;
+
+    li+li {
+      border: none;
+
+      a {
+        text-shadow: none;
+        border: none;
+      }
+    }
+
+    form .search {
+      background-color: inherit;
+
+      -webkit-box-shadow: none;
+         -moz-box-shadow: none;
+              box-shadow: none;
+
+      -webkit-border-radius: 0;
+         -moz-border-radius: 0;
+          -ms-border-radius: 0;
+           -o-border-radius: 0;
+              border-radius: 0;
+    }
+  }
+
+  aside.sidebar {
+    border: none;
+
+    li, section h1 {
+      border: none;
+      -webkit-box-shadow: none;
+         -moz-box-shadow: none;
+              box-shadow: none;
+    }
+
+    #twitter-profile #author-card {
+      height: 90px;
+
+      img {
+        float: left;
+      }
+
+      p {
+        margin: 0 0 0 95px;
+
+        &#name {
+          font-weight: bold;
+          padding-top: 1.5em;
+        }
+      }
+    }
+  }
+
+  .toggle-sidebar {
+    display: none;
+
+    &:hover {
+      display: none;
+    }
+
+    &:after {
+      background: none;
+      border: none;
+      display: none;
+    }
+  }
+
+  #content {
+    border: none;
+
+    div.pagination {
+      background: none;
+      margin: 0;
+    }
+  }
+
+  .gist .gist-file .highlight {
+    width: 100%;
+  }
+
+  footer {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 10em 0;
+    text-shadow: none;
+    -webkit-border-radius: 0;
+            border-radius: 0;
+    -webkit-background-clip: padding-box; background-clip: padding-box;
+
+    -webkit-box-shadow: inset 0px 6px 6px 0px #ccc;
+            box-shadow: inset 0px 6px 6px 0px #ccc;
+  }
 }

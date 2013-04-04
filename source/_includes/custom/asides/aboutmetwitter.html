@@ -2,11 +2,11 @@
 <section>
   <h1>About Me</h1>
   <div id="twitter-profile">
-    <img src="{% gravatar_image %}" alt="Gravatar of {{ site.author}} " title="Gravatar of {{ site.author }}" />
-    <p>
-      <strong>{{site.author}}</strong>
-      @<a href="http://twitter.com/{{site.twitter_user}}">{{ site.twitter_user }}</a>
-    </p>
+    <div id="author-card">
+      <img src="{% gravatar_image %}" alt="Gravatar of {{ site.author}} " title="Gravatar of {{ site.author }}" />
+      <p id="name">{{site.author}}</p>
+      <p id="handle">@<a href="http://twitter.com/{{site.twitter_user}}">{{ site.twitter_user }}</a></p>
+    </div>
     <p>{{site.description}}</p>
   </div>
 </section>
