@@ -12,6 +12,10 @@ single: true
       {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
       {% include post/categories.html %}
     </p>
+    <p class="no-comments meta">
+      There's not a comments section on this blog any more. If you<br>
+      want, tweet at me or write your own post and send me the link.
+    </p>
     {% unless page.sharing == false %}
       {% include post/sharing.html %}
     {% endunless %}

@@ -3,7 +3,7 @@
 html {
   background: none;
 
-  body{
+  body {
     max-width: 100%;
     color: #657b83;
     background-color: #fdf6e3;
@@ -38,8 +38,12 @@ html {
       padding-left: 0;
       background: none;
 
-      h2 {
+      header, h2 {
         background: none;
+      }
+
+      footer .no-comments {
+        text-align: center;
       }
     }
 
@@ -53,6 +57,20 @@ html {
       &:hover {
         text-decoration: underline;
       }
+    }
+
+    >footer {
+      background: none;
+      border: none;
+      margin: 0;
+      padding: 10em 0;
+      text-shadow: none;
+      -webkit-border-radius: 0;
+              border-radius: 0;
+      -webkit-background-clip: padding-box; background-clip: padding-box;
+
+      -webkit-box-shadow: inset 0px 6px 6px 0px #ccc;
+              box-shadow: inset 0px 6px 6px 0px #ccc;
     }
   }
 
@@ -150,17 +168,7 @@ html {
     width: 100%;
   }
 
-  footer {
+  p.meta+.sharing {
     background: none;
-    border: none;
-    margin: 0;
-    padding: 10em 0;
-    text-shadow: none;
-    -webkit-border-radius: 0;
-            border-radius: 0;
-    -webkit-background-clip: padding-box; background-clip: padding-box;
-
-    -webkit-box-shadow: inset 0px 6px 6px 0px #ccc;
-            box-shadow: inset 0px 6px 6px 0px #ccc;
   }
 }
