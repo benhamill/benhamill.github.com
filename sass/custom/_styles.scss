@@ -63,7 +63,8 @@ html {
       background: none;
       border: none;
       margin: 0;
-      padding: 10em 0;
+      padding-top: 5em;
+      padding-bottom: 5em;
       text-shadow: none;
       -webkit-border-radius: 0;
               border-radius: 0;
@@ -72,104 +73,149 @@ html {
       -webkit-box-shadow: inset 0px 6px 6px 0px #ccc;
               box-shadow: inset 0px 6px 6px 0px #ccc;
     }
-  }
 
-  #main, nav>div, header>hgroup, footer>p {
-    max-width: $max-width;
-    margin: 0 auto;
-    position: relative;
-    border: none;
-  }
+    #main-wrapper, footer {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
 
-  nav {
-    border: none;
-    background: none;
-    padding-bottom: 10px;
-
-    -webkit-box-shadow: 0px 6px 6px 0px #ccc;
-            box-shadow: 0px 6px 6px 0px #ccc;
-
-    li+li {
+    #main, nav>div, header>hgroup, footer>p {
+      max-width: $max-width;
+      margin: 0 auto;
+      position: relative;
       border: none;
+    }
 
-      a {
-        text-shadow: none;
+    nav {
+      border: none;
+      background: none;
+      padding-bottom: 10px;
+
+      -webkit-box-shadow: 0px 6px 6px 0px #ccc;
+              box-shadow: 0px 6px 6px 0px #ccc;
+
+      li+li {
         border: none;
+
+        a {
+          text-shadow: none;
+          border: none;
+        }
+      }
+
+      form .search {
+        background-color: inherit;
+
+        -webkit-box-shadow: none;
+           -moz-box-shadow: none;
+                box-shadow: none;
+
+        -webkit-border-radius: 0;
+           -moz-border-radius: 0;
+            -ms-border-radius: 0;
+             -o-border-radius: 0;
+                border-radius: 0;
       }
     }
 
-    form .search {
-      background-color: inherit;
-
-      -webkit-box-shadow: none;
-         -moz-box-shadow: none;
-              box-shadow: none;
-
-      -webkit-border-radius: 0;
-         -moz-border-radius: 0;
-          -ms-border-radius: 0;
-           -o-border-radius: 0;
-              border-radius: 0;
-    }
-  }
-
-  aside.sidebar {
-    border: none;
-    color: inherit;
-
-    li, section h1 {
+    aside.sidebar {
       border: none;
-      -webkit-box-shadow: none;
-         -moz-box-shadow: none;
-              box-shadow: none;
-    }
+      color: inherit;
+      background: none;
+      padding: 0;
 
-    #twitter-profile #author-card {
-      height: 90px;
 
-      img {
-        float: left;
+      li, section h1 {
+        border: none;
+        -webkit-box-shadow: none;
+           -moz-box-shadow: none;
+                box-shadow: none;
       }
 
-      p {
-        margin: 0 0 0 95px;
+      #twitter-profile #author-card {
+        height: 90px;
 
-        &#name {
-          font-weight: bold;
-          padding-top: 1.5em;
+        img {
+          float: left;
+        }
+
+        p {
+          margin: 0 0 0 95px;
+
+          &#name {
+            font-weight: bold;
+            padding-top: 1.5em;
+          }
         }
       }
     }
-  }
 
-  .toggle-sidebar {
-    display: none;
-
-    &:hover {
+    .toggle-sidebar {
       display: none;
+
+      &:hover {
+        display: none;
+      }
+
+      &:after {
+        background: none;
+        border: none;
+        display: none;
+      }
     }
 
-    &:after {
-      background: none;
+    #content {
       border: none;
-      display: none;
+
+      div.pagination {
+        background: none;
+        margin: 0;
+      }
     }
-  }
 
-  #content {
-    border: none;
+    .gist .gist-file .highlight {
+      width: 100%;
+    }
 
-    div.pagination {
+    p.meta+.sharing {
       background: none;
-      margin: 0;
     }
-  }
 
-  .gist .gist-file .highlight {
-    width: 100%;
-  }
+    @media only screen and (min-width: 480px) {
+      #main-wrapper, footer {
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+    }
 
-  p.meta+.sharing {
-    background: none;
+    @media only screen and (min-width: 768px) {
+      #main-wrapper, footer {
+        padding-left: 35px;
+        padding-right: 35px;
+      }
+
+      aside.sidebar {
+        padding: 0 0 15px 15px;
+      }
+
+      #content {
+        margin-right: 220px;
+      }
+    }
+
+    @media only screen and (min-width: 992px) {
+      #main-wrapper, footer {
+        padding-left: 55px;
+        padding-right: 55px;
+      }
+
+      aside.sidebar {
+        padding: 1.2em 0 20px 20px;
+      }
+
+      #content {
+        margin-right: 280px;
+      }
+    }
   }
 }
