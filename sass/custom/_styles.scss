@@ -34,19 +34,6 @@ html {
       background: none;
     }
 
-    #content>div>article {
-      padding-left: 0;
-      background: none;
-
-      header, h2 {
-        background: none;
-      }
-
-      footer .no-comments {
-        text-align: center;
-      }
-    }
-
     aside.sidebar:hover a, aside.sidebar a, a, a:hover, a:visited {
       color: #268bd2;
     }
@@ -166,6 +153,23 @@ html {
 
     #content {
       border: none;
+
+      .blog-index article {
+        margin-bottom: 8em;
+      }
+
+      >div>article {
+        padding-left: 0;
+        background: none;
+
+        header, h2 {
+          background: none;
+        }
+
+        footer .no-comments {
+          text-align: center;
+        }
+      }
 
       div.pagination {
         background: none;
