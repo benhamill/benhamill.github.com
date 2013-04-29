@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Social Justice if Made of Empathy"
+title: "Social Justice is Made of Empathy"
 date: 2013-04-28 19:51
 comments: true
 categories: 
