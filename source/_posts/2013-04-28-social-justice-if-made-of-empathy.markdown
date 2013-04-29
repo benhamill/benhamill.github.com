@@ -31,12 +31,12 @@ uncomfortable (or whatever) and you apologized, but decided that whatever the
 statement was, it was so much a part of who you are, that you knew you'd say it
 again in the future. I'm paraphrasing, here, hence the lack of quotes. In
 answer, they talked about a few things, but someone said something else and the
-conversation kind of got distracted, but I want to address it somewhat.
+conversation kind of got distracted. However, I'd like to address it somewhat.
 
 The flippant answer to the question is, "Of course." I mean--if I say something
-like, "I really, **really** like wearing argyle socks," and you're like, "That
-comment offends me," there's not a whole lot I can do for you. Assuming I didn't
-just think you were trolling me, I would probably apologize because I don't like
+like, "I really, *really* like wearing argyle socks," and you're like, "That
+comment offends me," there's not a whole lot I can do for you. Assuming I don't
+just think you're trolling me, I would probably apologize because I don't like
 to make people feel bad, but... I seriously wear argyle socks every day. I love
 that shit. I am likely to express that idea in the future.
 
@@ -52,7 +52,7 @@ After making your comment, someone in the group (or near the group over-hearing)
 says something to you about it being inappropriate and you apologize. Great.
 How, though, do you get from, "I didn't realize that was racist," to "but that
 thought it so intrinsic to my being that I don't care and I'll say it again
-later"? The only method I can see to get there if is "I am an empathetic human
+later"? The only method I can see to get there is if "I am an empathetic human
 being who cares about others" isn't a part of how you view yourself.
 
 Personally, I am *bad* at empathy. I have a hard time reading people sometimes,
@@ -71,7 +71,7 @@ protecting my ego or whatever.
 So, I guess what I'm saying is: If someone near you points out that something
 you said is out of bounds, and you find yourself saying, "No, my gay friend
 always jokes around with me that way and he's not offended," then you are
-failing an empathy. At least from the standpoint of someone who is basically
+failing at empathy. At least from the standpoint of someone who is basically
 sitting on a mountain of privilege (me), social justice isn't about gay couples
 wanting to "ruin marriage" or women wanting to invade and displace all our
 special boys club professions and hobbies or whatever: It's about giving a shit
