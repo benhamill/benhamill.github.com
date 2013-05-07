@@ -5,12 +5,12 @@ date: 2013-04-28 19:51
 comments: true
 categories: 
 ---
-I was listening to an episode of [The Ruby Rogues](http://rubyrogues.com) with
-[Ashe Dryden](http://twitter.com/ashedryden) as the guest called
-[101](http://rubyrogues.com/#find_the_show_link). The title is a reference to
-what social justice folks call "101 work", which is the sort of entry-level
-explanatory teaching that it takes to get someone from something like "Isn't a
-code event specifically for girls, sexist?" to, "That's not cool".
+I was listening to [episode 101](http://rubyrogues.com/#find_the_show_link) of
+[The Ruby Rogues](http://rubyrogues.com) with [Ashe Dryden](http://twitter.com/ashedryden)
+as the guest. The episode includes some of what social justice folks call "101
+work", which is the sort of entry-level explanatory teaching that it takes to
+get someone from something like "Isn't a code event specifically for girls,
+sexist?" to, "That's not cool".
 
 Anyway, I really liked the episode, and I recommend you go give it a listen,
 especially if you're new or entirely unintroduced to the topic of social
@@ -74,5 +74,5 @@ always jokes around with me that way and he's not offended," then you are
 failing at empathy. At least from the standpoint of someone who is basically
 sitting on a mountain of privilege (me), social justice isn't about gay couples
 wanting to "ruin marriage" or women wanting to invade and displace all our
-special boys club professions and hobbies or whatever: It's about giving a shit
-about other human beings.
+special boys club professions and hobbies or anything like that: It's about
+giving a shit about other human beings.
