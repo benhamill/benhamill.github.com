@@ -76,7 +76,7 @@ look like this business:
 
 ``` yaml ~/.bundle/config
 ---
-BUNDLE_BIN: .bindle/bin
+BUNDLE_BIN: .bundle/bin
 ```
 
 Undo any steps you may have taken above (like ignoring `bin`) and shit should be
