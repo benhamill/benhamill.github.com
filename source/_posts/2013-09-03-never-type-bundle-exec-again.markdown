@@ -7,7 +7,7 @@ categories:
 ---
 Sometimes people complain about having to type `bundle exec` before every
 freakin' command in a Ruby project. Honestly, I think the benefits Bundler gives
-you outweigh that downside by a *huge* margin. However, there is good news: You
+you outweigh that down side by a *huge* margin. However, there is good news: You
 can use this one weird trick to never type `bundle exec` again.
 
 OK. It's actually an option of two weird tricks. And then a bonus trick. This
@@ -16,7 +16,7 @@ joke is ruined.
 
 ## Somewhat Involved, Works Everywhere
 
-If you've got Ruby installed, you can do this trick. It's a little hackey and
+If you've got Ruby installed, you can do this trick. It's a little hacky and
 comes with some down sides.
 
 First up, make `~/.bundle/config` look like this business:
