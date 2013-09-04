@@ -7,7 +7,7 @@ categories:
 ---
 Sometimes people complain about having to type `bundle exec` before every
 freakin' command in a Ruby project. Honestly, I think the benefits Bundler gives
-you outweigh that down side by a *huge* margin. However, there is good news: You
+you outweigh that downside by a *huge* margin. However, there is good news: You
 can use this one weird trick to never type `bundle exec` again.
 
 OK. It's actually an option of two weird tricks. And then a bonus trick. This
@@ -17,7 +17,7 @@ joke is ruined.
 ## Somewhat Involved, Works Everywhere
 
 If you've got Ruby installed, you can do this trick. It's a little hacky and
-comes with some down sides.
+comes with some downsides.
 
 First up, make `~/.bundle/config` look like this business:
 
@@ -40,7 +40,7 @@ git ignore file and make sure it includes this:
 bin
 ```
 
-Here's down side number one: You will probably have to override this for specific
+Here's downside number one: You will probably have to override this for specific
 projects. For instance, gems often ship with a `bin` directory with files to do
 with the gem. You'll want to make sure those aren't ignored. If you explicitly
 `git add` them, they should be tracked by git thereafter, but you have to go out
@@ -52,7 +52,7 @@ there.
 At this point, you could stop, except you'd have to type `bin/` in front of
 every command, instead of `bundle exec`. Sure, it's shorter, but still annoying.
 The next thing to do might be to prepend `./bin` to your `$PATH` so that your
-command line looks there for commands first. Down side number two is that there
+command line looks there for commands first. Downside number two is that there
 are some negative security implications to this, so I for sure don't recommend
 it for servers, but I'll leave it up to you whether you do it on your personal
 dev machine.
