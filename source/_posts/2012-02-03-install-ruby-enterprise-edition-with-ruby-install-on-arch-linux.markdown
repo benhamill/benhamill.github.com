@@ -80,7 +80,7 @@ it the name of a recipe that ruby-build already knows about or the path to a
 recipe on your hard drive somewhere. So, in the directory where I had saved my
 recipe, I ran:
 
-```
+``` text
 $ CONFIGURE_OPTS="--no-tcmalloc" rbenv install ./ree-1.8.7-0211.12-stdout_patch
 ```
 
@@ -92,7 +92,7 @@ pass those options along in it's build process. So off it goes to the races.
 Then, I get this output:
 
 
-```
+``` text
 Downloading http://rubyenterpriseedition.googlecode.com/files/ruby-enterprise-1.8.7-2011.12.tar.gz...
 Installing ruby-enterprise-1.8.7-2011.12...
 --2012-02-03 12:07:35--  http://bugs.ruby-lang.org/attachments/download/1931/stdout-rouge-fix.patch
