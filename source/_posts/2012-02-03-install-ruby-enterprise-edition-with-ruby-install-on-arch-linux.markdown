@@ -40,7 +40,16 @@ ruby-build works is by executing recipes, which are pretty simple. Here is the
 one I wrote to handle the install. It's just a variation on the stock REE
 install recipe from ruby-build.
 
-{% gist 1732092 ree-1.8.7-2011.12-stdout_patch %}
+``` ruby ree-1.8.7-2011.12-stdout_patch
+build_package_stdout_patch() {
+  wget 'http://bugs.ruby-lang.org/attachments/download/1931/stdout-rouge-fix.patch'
+  patch -p1 < stdout-rouge-fix.patch
+}
+
+require_gcc
+install_package "ruby-enterprise-1.8.7-2011.12" "http://rubyenterpriseedition.googlecode.com/files/ruby-enterprise-1.8.7-2011.12.tar.gz" stdout_patch ree_installer
+install_package "rubygems-1.6.2" "http://production.cf.rubygems.org/rubygems/rubygems-1.6.2.tgz" ruby
+```
 
 I won't get deep into the details, but let's start with the last 3 lines.
 Ruby-build executes each of these directives in turn. The first of the three
@@ -71,7 +80,9 @@ it the name of a recipe that ruby-build already knows about or the path to a
 recipe on your hard drive somewhere. So, in the directory where I had saved my
 recipe, I ran:
 
-{% gist 1732092 run_command %}
+```
+$ CONFIGURE_OPTS="--no-tcmalloc" rbenv install ./ree-1.8.7-0211.12-stdout_patch
+```
 
 Note: There's some kind of problem with tcmalloc and the newest gcc. Or
 something. I don't really understand, but since this is just for local
@@ -81,7 +92,36 @@ pass those options along in it's build process. So off it goes to the races.
 Then, I get this output:
 
 
-{% gist 1732092 output %}
+```
+Downloading http://rubyenterpriseedition.googlecode.com/files/ruby-enterprise-1.8.7-2011.12.tar.gz...
+Installing ruby-enterprise-1.8.7-2011.12...
+--2012-02-03 12:07:35--  http://bugs.ruby-lang.org/attachments/download/1931/stdout-rouge-fix.patch
+Resolving bugs.ruby-lang.org... 210.251.121.216
+Connecting to bugs.ruby-lang.org|210.251.121.216|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 719 [text/x-patch]
+Saving to: `stdout-rouge-fix.patch'
+
+100%[======================================================>] 719         --.-K/s   in 0s
+
+2012-02-03 12:07:36 (68.9 MB/s) - `stdout-rouge-fix.patch' saved [719/719]
+
+can't find file to patch at input line 5
+Perhaps you used the wrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|diff --git a/lib/mkmf.rb b/lib/mkmf.rb
+|index c9e738a..7a8004d 100644
+|--- a/lib/mkmf.rb
+|+++ b/lib/mkmf.rb
+--------------------------
+File to patch: source/lib/mkmf.rb
+patching file source/lib/mkmf.rb
+Installed ruby-enterprise-1.8.7-2011.12 to /home/ben/.rbenv/versions/ree-1.8.7-0211.12-stdout_patch
+Downloading http://production.cf.rubygems.org/rubygems/rubygems-1.6.2.tgz...
+Installing rubygems-1.6.2...
+Installed rubygems-1.6.2 to /home/ben/.rbenv/versions/ree-1.8.7-0211.12-stdout_patch
+```
 
 Pay particular attention to the last half of this. After the progress bar,
 patch gets confused. That's because the patch is really for Ruby 1.8.7 MRI, not
