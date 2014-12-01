@@ -44,7 +44,7 @@ category_dir: blog/categories
 markdown: rdiscount
 rdiscount:
   extensions:
-    - autolink
+    # - autolink
     - footnotes
     - smart
 highlighter: pygments # default python pygments have been replaced by pygments.rb
