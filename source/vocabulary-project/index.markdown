@@ -50,3 +50,4 @@ Unstyled means it's future work I need to do.
 * moron
 * idiot
 * insane
+* psycho
