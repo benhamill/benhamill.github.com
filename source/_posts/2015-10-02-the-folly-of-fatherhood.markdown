@@ -3,18 +3,18 @@ layout: post
 title: "The Folly of Fatherhood"
 date: 2015-10-02 22:39:00 -0500
 comments: true
-categories: 
+categories:
 ---
-Upon reflection, I think I have observed something about fatherhood. Or at
-least _my_ fatherhood (the one I am doing or having right now, not the one my
-dad did or had with, on, at or to me—the prepositions, here, are unclear to
-me). It is this: I am fairly certain I would _destroy myself_ saving one of my
-children. In fact, I'm pretty sure I'd destroy myself _failing_ such an
-attempt. Not infrequently, I think of a specific incident. (This may get a bit
-dark for some readers. There is talk of death and dying both: my own and my
+Upon reflection, I think I have observed something about fatherhood. Or at least
+_my_ fatherhood (the one I am doing or having right now, not the one my dad did
+or had with, on, at or to me—the prepositions, here, are unclear to me). It is
+this: I am fairly certain I would _destroy myself_ saving one of my children. In
+fact, I'm pretty sure I'd destroy myself _failing_ such an attempt. Not
+infrequently, I think of a specific incident. (This may get a bit dark for some
+readers. There is talk of hypothetical death and dying: both my own and my
 children's. I won't think less of you if you skip it).
 
-When L was about one and a half, my family and I were at the Texas Renaissance
+When L was about two years old, my family and I were at the Texas Renaissance
 Festival. They have, there, a little side-path where you can kind of get away
 from the hubbub of the main festival. There are a few nice plants, some
 statuary, the odd set of benches and a majority of the path is adjacent to a
@@ -67,3 +67,6 @@ to when my children are in literal mortal danger, but I suspect that whatever
 processing goes into that decision happens faster and at a lower level than my
 conscious mind. A part of me finds this observation slightly dismaying. Another
 part of me finds it incredibly reassuring.
+
+_Thanks to Carl Youngblood, Andrew Harrison and Kevin Lord for helping edit this
+post._
