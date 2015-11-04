@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dragon Age: Inquisition &amp; Social Justice"
-date: 2015-11-03 21:15:00 -0500
+date: 2015-11-03 21:15:00 -0600
 comments: true
 categories:
 ---
