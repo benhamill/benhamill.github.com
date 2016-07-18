@@ -237,7 +237,7 @@ come over and help us work it out?"
 
 You ask the team lead because, as with any other task you want to hand to
 another team, you don't jump the chain of command: you let the leader decide
-who's interruptable or appropriate for the task. You mention what channel you've
+who's interruptible or appropriate for the task. You mention what channel you've
 been talking about the problem in so that the nominated helper knows where to
 go, _as well as anyone else who wanders into #infrastructure with the same
 problem_.
