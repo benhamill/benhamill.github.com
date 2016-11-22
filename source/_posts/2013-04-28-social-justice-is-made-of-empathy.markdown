@@ -45,8 +45,8 @@ addresses people in some way (instead of socks), I think the idea becomes really
 interesting (I'll leave it as an exercise to the reader to come up with an
 appropriately offensive remark). If you say something offensive or exclusionary,
 I'm going to give you (and me) the benefit of the doubt an assume it's because
-you didn't realize it would be so. You're a good person; you don't enjoy ruining
-other people's days.
+you didn't realize it would be so. You're not an asshole; you don't _enjoy_
+ruining other people's days.
 
 After making your comment, someone in the group (or near the group over-hearing)
 says something to you about it being inappropriate and you apologize. Great.
@@ -56,17 +56,17 @@ later"? The only method I can see to get there is if "I am an empathetic human
 being who cares about others" isn't a part of how you view yourself.
 
 Personally, I am *bad* at empathy. I have a hard time reading people sometimes,
-but I still like to think of myself that I'm empathic. If I manage to figure out
-that someone was hurt by me, I feel bad. I want to make it better. And in the
+but I still like to think of myself as empathic. If I manage to figure out that
+someone was hurt by me, I feel bad. I want to make it better. And in the
 scenario laid out above, we're removing that, anyway. Above, I've said something
 and someone flat out told me what was going on, in case I didn't pick it up.
 
 So if some aspect of that remark is intrinsic to my self image and empathy is
 intrinsic to my self image, then they're in competition now. And, I guess, you
 have to be real with yourself about which one is actually more important to you.
-Possibly with observation, not introspection. Personally, I'd like my personal
-narrative to be more about being empathetic to other people than about
-protecting my ego or whatever.
+Possibly with observation, not just thinkin' really hard about what a good
+person would do. Personally, I'd like my personal narrative to be more about
+being empathetic to other people than about protecting my ego or whatever.
 
 So, I guess what I'm saying is: If someone near you points out that something
 you said is out of bounds, and you find yourself saying, "No, my gay friend
