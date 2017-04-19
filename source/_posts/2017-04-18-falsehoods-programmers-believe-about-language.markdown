@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Falsehoods Programmers Believe About Language"
-date: 2017-02-07 22:17:11 -0600
+date: 2017-04-18 22:17:11 -0600
 comments: true
 categories: 
 ---
