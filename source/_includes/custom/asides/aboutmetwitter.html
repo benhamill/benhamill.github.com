@@ -5,14 +5,24 @@
     <div id="author-card">
       <img src="{% gravatar_image %}" alt="Gravatar of {{ site.author}} " title="Gravatar of {{ site.author }}" />
       <p id="name">{{site.author}}</p>
-      <p id="handle">@<a href="http://twitter.com/{{site.twitter_user}}">{{ site.twitter_user }}</a></p>
-      <p id="liame">
-        <span id="obf"><script>document.getElementById("obf").innerHTML="<n uers=\"znvygb:ora@oraunzvyy.pbz\" gnetrg=\"_oynax\">ora@oraunzvyy.pbz</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});</script>
-        <noscript><span style="unicode-bidi:bidi-override;direction:rtl;">moc.llimahneb@neb</span></noscript></span>
-      </p>
       <p>he/him</p>
     </div>
     <p>Ruby, software, video &amp; roleplaying games, social justice, Linux, git, vim, argyle.</p>
   </div>
+</section>
+
+<section id="contact">
+  <h1>Contact</h1>
+  <ul>
+    <li>
+      <img src="/images/mastodon.svg" />
+      <a href="https://witches.town/@benhamill">benhamill@witches.town</a>
+    </li>
+    <li>
+      <img src="/images/email.png" />
+      <span id="obf"><script>document.getElementById("obf").innerHTML="<n uers=\"znvygb:ora@oraunzvyy.pbz\" gnetrg=\"_oynax\">ora@oraunzvyy.pbz</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});</script>
+      <noscript><span style="unicode-bidi:bidi-override;direction:rtl;">moc.llimahneb@neb</span></noscript></span>
+    </li>
+  </dl>
 </section>
 {% endif %}
