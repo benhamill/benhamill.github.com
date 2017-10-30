@@ -111,6 +111,14 @@ html {
       background: none;
       padding: 0;
 
+      #contact {
+        img {
+          border: none;
+          height: 1em;
+          vertical-align: middle;
+        }
+      }
+
 
       li, section h1 {
         border: none;
