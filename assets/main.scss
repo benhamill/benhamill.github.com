@@ -1,0 +1,21 @@
+---
+---
+@import "minima";
+
+div.pagination {
+  text-align: center;
+  position: relative;
+
+  a {
+    &.prev { position: absolute; left: 0; }
+    &.next { position: absolute; right: 0; }
+  }
+}
+
+h1.post-title a {
+  color: #111;
+
+  &:hover {
+    color: #2a7ae2;
+  }
+}

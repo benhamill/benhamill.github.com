@@ -1,0 +1,26 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+---
+<div>
+  {% for post in paginator.posts %}
+  {% assign content = post.content %}
+  {% assign date = post.date %}
+  {% assign author = post.author %}
+  {% assign url = post.url %}
+  {% assign title = post.title %}
+  {% include article.html %}
+  {% endfor %}
+
+  <div class="pagination">
+    {% if paginator.next_page %}
+    <a class="prev" href="{{paginator.next_page_path}}">&larr; Older</a>
+    {% endif %}
+    <a href="{% link archives.html %}">Archives</a>
+    {% if paginator.previous_page %}
+    <a class="next" href="{{paginator.previous_page_path}}">Newer &rarr;</a>
+    {% endif %}
+  </div>
+</div>
