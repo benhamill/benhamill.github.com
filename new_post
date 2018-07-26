@@ -1,0 +1,17 @@
+#!/bin/zsh
+
+title=$1
+slug=$(echo $title | tr "[:upper:]" "[:lower:]" | sed -E "s/[^-a-z0-9]+/_/g")
+
+date=$(date +%Y-%m-%d)
+datetime=$(date +"%Y-%m-%d %H:%M:%S %z")
+
+filename="$date-$slug.md"
+
+echo "---
+layout: post
+title: \"$title\"
+date: \"$datetime\"
+---
+
+" > _posts/$filename
