@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+
+posts_with_length = `wc -w _posts/*`.split("\n").reverse.drop(1)
+
+lengths = posts_with_length.map do |post_with_length|
+  post_with_length.strip.split(" ").first.to_i
+end.sort
+
+histogram = lengths.reduce({}) do |memo, length|
+  bucket = length / 100 * 100
+  memo[bucket] ||= 0
+  memo[bucket] += 1
+
+  memo
+end
+
+(lengths.first/100..lengths.last/100).each do |i|
+  bucket = i * 100
+  puts "#{bucket.to_s.rjust(4, "0")} #{"X" * histogram[bucket].to_i}"
+end
