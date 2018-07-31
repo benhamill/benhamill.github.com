@@ -18,9 +18,10 @@
     {{ content }}
   </div>
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
+  <p class="comments">
+    I don't have comments on this blog, but if you hit me up via one of the
+    contact methods in the footer, I'm happy to talk about or amend these posts.
+  </p>
 
   <a class="u-url" href="{{ url | relative_url }}" hidden></a>
 </article>
