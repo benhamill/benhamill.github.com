@@ -3,7 +3,7 @@ layout: post
 title: "Linguistics Minute: Eth and Thorn"
 date: "2018-12-31 19:55:00 -0500"
 ---
-_This was originally published in my work Slack on 2019-08-15, but I've since
+_This was originally published in my work Slack on 2016-08-15, but I've since
 been convinced that more people than just those few who can even read it there
 might be interested. I've edited it for clarity and correctness. I'm going to
 migrate all my Linguistcs Minutes over to my blog and probably post future ones
