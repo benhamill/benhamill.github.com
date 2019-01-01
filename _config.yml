@@ -23,6 +23,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://garbled.benhamill.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  benhamill
 
+timezone: America/Chicago
+
 mastodon:
   - username: benhamill
     instance: cybre.space
