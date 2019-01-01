@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linguistics Minute: Eth and Thorn"
-date: "2019-01-1 12:00:00 -0500"
+date: "2018-12-31 19:55:00 -0500"
 ---
 _This was originally published in my work Slack on 2019-08-15, but I've since
 been convinced that more people than just those few who can even read it there
