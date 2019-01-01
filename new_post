@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 title=$1
-slug=$(echo $title | tr "[:upper:]" "[:lower:]" | sed -E "s/[^-a-z0-9]+/_/g")
+slug=$(echo $title | tr "[:upper:]" "[:lower:]" | sed -E "s/[^-a-z0-9]+/-/g")
 
 date=$(date +%Y-%m-%d)
 datetime=$(date +"%Y-%m-%d %H:%M:%S %z")
