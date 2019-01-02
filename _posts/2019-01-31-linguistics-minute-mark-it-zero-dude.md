@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Linguistics Minute: Mark it Zero, Dude"
+title: "Mark it Zero, Dude"
 date: "2019-01-31 12:00:00 -0500"
-category: linguistics-minute
+category: Linguistics Minute
 ---
 _This was originally published in my work Slack on 2016-11-11, but I've since
 been convinced that more people than just those few who can even read it there

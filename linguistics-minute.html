@@ -7,7 +7,7 @@ permalink: /linguistics-minute
   <h2 class="post-list-heading">Linguistics Minute</h2>
 
   <ul class="post-list">
-    {%- for post in site.categories["linguistics-minute"] -%}
+    {%- for post in site.categories["Linguistics Minute"] -%}
     <li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -23,5 +23,5 @@ permalink: /linguistics-minute
     {%- endfor -%}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed/linguistics-minute.xml" | relative_url }}">via RSS</a></p>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed/linguistics%20minute.xml" | relative_url }}">via RSS</a></p>
 </div>

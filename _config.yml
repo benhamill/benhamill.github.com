@@ -38,8 +38,8 @@ plugins:
 
 feed:
   categories:
-    - linguistics-minute
-    - books
+    - Linguistics Minute
+    - Book Review
 
 paginate: 1
 paginate_path: posts/:num
