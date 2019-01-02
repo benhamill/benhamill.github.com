@@ -7,7 +7,7 @@ category: Linguistics Minute
 _This was originally published in my work Slack on 2016-08-15, but I've since
 been convinced that more people than just those few who can even read it there
 might be interested. I've edited it for clarity and correctness. I'm going to
-migrate all my Linguistcs Minutes over to my blog and probably post future ones
+migrate all my Linguistics Minutes over to my blog and probably post future ones
 here._
 
 So in English, we have two sounds that we spell "th". The "th" in _think_
