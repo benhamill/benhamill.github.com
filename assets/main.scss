@@ -35,3 +35,11 @@ nav.site-nav {
     width: auto;
   }
 }
+
+a.site-title {
+  @include media-query($on-palm) {
+    margin-right: 40px;
+    line-height: 1.5;
+    margin-top: 8px;
+  }
+}
