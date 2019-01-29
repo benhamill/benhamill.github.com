@@ -2,6 +2,7 @@
 layout: post
 title: "Linguistics Minute: Ye Olde Spelling"
 date: "2019-01-20 12:00:00 -0500"
+category: linguistics-minute
 ---
 _This was originally published in my work Slack on 2016-10-07—and, in fact,
 looks like an expansion of the first one I ever wrote, but I'm keeping them both

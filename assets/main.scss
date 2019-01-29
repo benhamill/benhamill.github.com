@@ -25,3 +25,13 @@ p.comments {
   font-size: 90%;
   font-style: italic;
 }
+
+nav.site-nav {
+  @include media-query($on-laptop) {
+    width: 100%;
+  }
+
+  @include media-query($on-palm) {
+    width: auto;
+  }
+}

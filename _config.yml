@@ -36,6 +36,11 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
+feed:
+  categories:
+    - linguistics-minute
+    - books
+
 paginate: 1
 paginate_path: posts/:num
 

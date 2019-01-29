@@ -2,6 +2,7 @@
 layout: post
 title: "Linguistics Minute: Saxon & Anglian Spelling"
 date: "2019-01-01 12:00:00 -0500"
+category: linguistics-minute
 ---
 _This was originally published in my work Slack on 2016-10-03, but I've since
 been convinced that more people than just those few who can even read it there
