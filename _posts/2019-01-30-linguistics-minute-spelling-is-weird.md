@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linguistics Minute: Spelling is Weird"
-date: "2019-01-29 13:00:00 -0500"
+date: "2019-01-30 12:00:00 -0500"
 ---
 _This was originally published in my work Slack on 2016-10-19, but I've since
 been convinced that more people than just those few who can even read it there
