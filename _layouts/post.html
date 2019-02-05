@@ -4,5 +4,11 @@ layout: default
 {% assign date = page.date %}
 {% assign author = page.author %}
 {% assign url = page.url %}
-{% assign title = page.title %}
+
+{% if page.category %}
+  {% assign title = page.title | prepend: ': ' | prepend: page.category %}
+{% else %}
+  {% assign title = page.title %}
+{% endif %}
+
 {% include article.html %}

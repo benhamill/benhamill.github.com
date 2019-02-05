@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Linguistics Minute: An English teacher, a urologist and an MVP walk into a bar."
+title: "An English teacher, a urologist and an MVP walk into a bar."
 date: "2019-01-29 12:00:00 -0500"
-category: linguistics-minute
+category: Linguistics Minute
 ---
 _This was originally published in my work Slack on 2016-10-18, but I've since
 been convinced that more people than just those few who can even read it there

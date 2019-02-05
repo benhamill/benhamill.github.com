@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Linguistics Minute: Lay Down the Law"
+title: "Lay Down the Law"
 date: 2019-01-05 20:00:00 -05:00
-category: linguistics-minute
+category: Linguistics Minute
 ---
 _This was originally published in my work Slack on 2016-10-04, but I've since
 been convinced that more people than just those few who can even read it there

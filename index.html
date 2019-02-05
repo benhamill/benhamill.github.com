@@ -6,12 +6,18 @@ layout: default
 ---
 <div>
   {% for post in paginator.posts %}
-  {% assign content = post.content %}
-  {% assign date = post.date %}
-  {% assign author = post.author %}
-  {% assign url = post.url %}
-  {% assign title = post.title %}
-  {% include article.html %}
+    {% assign content = post.content %}
+    {% assign date = post.date %}
+    {% assign author = post.author %}
+    {% assign url = post.url %}
+
+    {% if post.category %}
+      {% assign title = post.title | prepend: ': ' | prepend: post.category %}
+    {% else %}
+      {% assign title = post.title %}
+    {% endif %}
+
+    {% include article.html %}
   {% endfor %}
 
   <div class="pagination">
