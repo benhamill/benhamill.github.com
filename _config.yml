@@ -60,6 +60,9 @@ defaults:
       layout: post
       permalink: /:year/:month/:day/:title
 
+minima:
+  date_format: "%Y-%m-%d"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
