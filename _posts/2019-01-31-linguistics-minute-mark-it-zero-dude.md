@@ -7,7 +7,7 @@ category: Linguistics Minute
 _This was originally published in my work Slack on 2016-11-11, but I've since
 been convinced that more people than just those few who can even read it there
 might be interested. I've edited it for clarity and correctness. I'm going to
-migrate all my Linguistcs Minutes over to my blog and probably post future ones
+migrate all my Linguistics Minutes over to my blog and probably post future ones
 here._
 
 So the word _mark_ means (at least in one of its meanings) "to make an area of
