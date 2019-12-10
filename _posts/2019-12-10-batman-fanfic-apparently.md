@@ -30,8 +30,8 @@ abuser and that she’s desperate for his attention and approval. Show us how
 she’s a victim and a creator of victims. Show us how she’s weak. Show us how
 she’s powerful. Show us how she’s flawed."
 
-So, yeah. The fiction, then. *Content Warning: Psychological abuse.* Try, if you
-can, to hear the voices as performed by Mark Hamill and Tara Strong.
+So, yeah. The fiction, then. **Content Warning: Psychological abuse.** Try, if
+you can, to hear the voices as performed by Mark Hamill and Tara Strong.
 
 
 ## Something I Could Do
