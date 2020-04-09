@@ -27,7 +27,7 @@ timezone: America/Chicago
 
 mastodon:
   - username: benhamill
-    instance: cybre.space
+    instance: eldritch.cafe
 
 # Build settings
 markdown: kramdown
