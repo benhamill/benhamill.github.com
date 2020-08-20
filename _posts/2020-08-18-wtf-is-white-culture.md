@@ -87,4 +87,4 @@ of white people approaching anti-racism work, it probably begins by talking with
 and listening to people who _are_ still connected to their culture—not in order
 to plunder their cultural practices, but in order to see how they relate to
 those practices. I think it also will involve learning about how to form and
-participate in a community, but that, too, it it's own whole topic.
+participate in a community, but that, too, is it's own whole topic.
