@@ -23,9 +23,9 @@ numbers are 2019's stats.
 **Reading Time** (in days including weekends, during which I generally don't
 read):
 * Maximum: 174\* days (_The Phoenix Princess_)
-* [Median](https://en.wikipedia.org/wiki/Median): 11 days (_Jacobin 35 and
+* [Median](https://en.wikipedia.org/wiki/Median): 11 days (_Jacobin 35_ and
   _Catalyst Vol. 3 No. 3_)
-* Minimum: 1† day (_The Five Dysfunctions of a Team)
+* Minimum: 1† day (_The Five Dysfunctions of a Team_)
 * [Mode](https://en.wikipedia.org/wiki/Mode_(statistics)): 4 days (_The
   Consuming Fire_, _Books and Bone_ and _Obsidio_)
 
