@@ -6,7 +6,7 @@ date: "2021-09-24 13:56:42 -0500"
 
 _This post was originally written for the internal engineering blog at my
 current employer, [Auctane](https://auctane.com/about-us/), and was published on
-2021-0701. It has been edited for clarity to an outside audience._
+2021-07-01. It has been edited for clarity to an outside audience._
 
 In mid-June 2021, one of our engineering leaders shared a link to an article
 titled '[There is no "us" in
