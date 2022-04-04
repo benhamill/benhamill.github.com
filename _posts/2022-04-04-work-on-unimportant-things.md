@@ -6,7 +6,7 @@ date: "2022-04-04 13:00:00 -0500"
 
 _This post was originally written for the internal engineering blog at my
 current employer, [Auctane](https://auctane.com/about-us/), and was published on
-2022-02-04. It has been edited for clarity to an outside audience._
+2021-10-18. It has been edited for clarity to an outside audience._
 
 Often it is a good idea for a group of people working on something together to
 focus most on the thing that sets them apart. A business should often focus
